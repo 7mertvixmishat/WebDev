@@ -1,4 +1,28 @@
 h1 {
-	background: black;
-	color: white;
+	color: black;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: bold;
 }
+.NameSurnameContainer {
+	background-color: black;
+	height: 50px;
+	width: 100%
+}
+
+.MyName h1 {
+	font-family: 
+}
+
+.ImageContainer {
+	width: auto;
+	height: 900px;
+	background-image: url(../img/past.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+
