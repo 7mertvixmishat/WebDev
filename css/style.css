@@ -4,25 +4,125 @@ h1 {
 	font-size: 40px;
 	font-weight: bold;
 }
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap&subset=cyrillic,cyrillic-ext');
+
 .NameSurnameContainer {
 	background-color: black;
 	height: 50px;
 	width: 100%
 }
 
-.MyName h1 {
-	font-family: 
+.MyName {
+	font-family: 'Yeseva One', cursive;
+	font-size: 80px;
+	color: black;
+	text-shadow: 5px -5px 15px white;
+	text-align: center;
+
 }
 
-.ImageContainer {
+.ImageContainerNow {
 	width: auto;
-	height: 900px;
-	background-image: url(../img/past.jpg);
+	height: 700px;
+	background-image: url(../img/now.gif);
+	background-size: contain;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: top;
+}
+
+.ImageContainerPast {
+	width: auto;
+	height: 700px;
+	background-image: url(../img/iPast.JPG);
 	background-size: cover;
 	background-repeat: repeat;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: top;
 }
+
+.ImageContainerFuture {
+	width: auto;
+	height: 700px;
+	background-image: url(../img/future.gif);
+	background-size: cover;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: top;
+}
+
+.menu {
+	background-color: black;
+	height: 100px;
+	position: relative;
+	 
+}
+
+.menuContainer {    
+position: absolute;         
+top: 50%;                      
+transform: translate(0, -50%);
+}
+
+.Link { font-family: 'Rubik', sans-serif;
+font-size: 18px;
+text-transform: uppercase;
+text-decoration: none;
+color: gray;
+margin-left: 20px;
+}
+
+.Link:hover { font-family: 'Rubik', sans-serif;
+font-size: 18px;
+text-transform: uppercase;
+text-decoration: none;
+color: white;
+margin-left: 20px;
+}
+
+.TextHeading {
+	font-family: 'Yeseva One', cursive;
+	font-size: 40px;
+	margin: 100px 0px 20px 20px;
+
+}
+
+.PlainText {font-family: 'Rubik', sans-serif;
+font-size: 20px;
+margin: 0px 50px 100px 20px;
+line-height: 26px }
+
+.FooterContainer{
+	height: 200px;
+	width: 100%;
+	background-color: black;
+}
+
+.Logo{
+	height: 150px;
+	background-image: url(../img/kot.png);
+	background-size: contain;
+}
+.Logo:hover{
+	height: 150px;
+	background-image: url(../img/kotm.png);
+	background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
