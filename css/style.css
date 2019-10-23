@@ -6,13 +6,13 @@ h1 {
 }
 @import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap&subset=cyrillic,cyrillic-ext');
 
-.NameSurnameContainer {
+.namesurnamecontainer {
 	background-color: black;
 	height: 50px;
 	width: 100%
 }
 
-.MyName {
+.myname {
 	font-family: 'Yeseva One', cursive;
 	font-size: 80px;
 	color: black;
@@ -21,7 +21,7 @@ h1 {
 
 }
 
-.ImageContainerNow {
+.imagecontainernow {
 	width: auto;
 	height: 700px;
 	background-image: url(../img/now.gif);
@@ -31,7 +31,7 @@ h1 {
 	background-position: top;
 }
 
-.ImageContainerPast {
+.imagecontainerpast {
 	width: auto;
 	height: 700px;
 	background-image: url(../img/iPast.JPG);
@@ -41,7 +41,7 @@ h1 {
 	background-position: top;
 }
 
-.ImageContainerFuture {
+.imagecontainerfuture {
 	width: auto;
 	height: 700px;
 	background-image: url(../img/future.gif);
@@ -58,13 +58,13 @@ h1 {
 	 
 }
 
-.menuContainer {    
+.menucontainer {    
 position: absolute;         
 top: 50%;                      
 transform: translate(0, -50%);
 }
 
-.Link { font-family: 'Rubik', sans-serif;
+.link { font-family: 'Rubik', sans-serif;
 font-size: 18px;
 text-transform: uppercase;
 text-decoration: none;
@@ -72,7 +72,7 @@ color: gray;
 margin-left: 20px;
 }
 
-.Link:hover { font-family: 'Rubik', sans-serif;
+.link:hover { font-family: 'Rubik', sans-serif;
 font-size: 18px;
 text-transform: uppercase;
 text-decoration: none;
@@ -80,32 +80,32 @@ color: white;
 margin-left: 20px;
 }
 
-.TextHeading {
+.textheading {
 	font-family: 'Yeseva One', cursive;
 	font-size: 40px;
 	margin: 100px 0px 20px 20px;
 
 }
 
-.PlainText {font-family: 'Rubik', sans-serif;
+.plaintext {font-family: 'Rubik', sans-serif;
 font-size: 20px;
 margin: 0px 50px 100px 20px;
 line-height: 26px }
 
-.FooterContainer{
+.footercontainer{
 	height: 200px;
 	width: 100%;
 	background-color: black;
 }
 
-.Logo{
+.logo{
 	height: 150px;
-	background-image: url(../img/kot.png);
+	background-image: url(../img/Kot.png);
 	background-size: contain;
 }
-.Logo:hover{
+.logo:hover{
 	height: 150px;
-	background-image: url(../img/kotm.png);
+	background-image: url(../img/Kotm.png);
 	background-size: contain;
 }
 
